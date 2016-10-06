@@ -1,6 +1,6 @@
 var Jueguin = Jueguin || {}; // Creo la variable del juego
 
-Jueguin.game = new Phaser.Game(1024, 768, Phaser.AUTO); // Instancio Phaser y especifico las dimensiones
+Jueguin.game = new Phaser.Game(1100, 768, Phaser.AUTO); // Instancio Phaser y especifico las dimensiones
 
 // Cargo los estados
 Jueguin.game.state.add('Menu', Jueguin.MenuState);
